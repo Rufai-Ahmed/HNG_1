@@ -1,0 +1,107 @@
+@font-face {
+  font-family: "GrandslangRoman";
+  src: url("fonts/GrandSlang-Roman.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url("fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "montserrat";
+  background-color: #ece7e1;
+  color: #1a1818;
+  margin: 0;
+  padding-bottom: 50px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 85%;
+}
+
+.content {
+  width: 70vw;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.custom-font,
+a {
+  font-family: "GrandslangRoman", cursive;
+  color: black;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 40px;
+}
+
+p {
+  font-weight: 600;
+}
+
+span {
+  font-weight: 300;
+}
+
+.goals ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.goals li {
+  background-color: #fff;
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.info,
+.contact {
+  margin-top: 20px;
+}
+
+.info {
+  max-width: 80%;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+footer a {
+  margin: 0 10px;
+  color: #0066cc;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
