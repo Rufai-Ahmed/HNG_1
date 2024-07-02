@@ -40,11 +40,6 @@ header {
   width: 70vw;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 .custom-font,
 a {
   font-family: "GrandslangRoman", cursive;
